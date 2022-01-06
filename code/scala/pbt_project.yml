@@ -2,6 +2,21 @@ name: micah.labadie
 description: User fork
 version: 1
 author: chas.kovacek@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: chas.kovacek@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-06 01:07:28'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Alvin_Tremblay:
+    name: Alvin_Tremblay
+    description: Really solid info
+    createdAt: '2022-01-06 01:07:28'
+    author: chas.kovacek@yahoo.com
